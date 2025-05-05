@@ -6,7 +6,7 @@ from datetime import datetime
 # Import modules for different functionalities
 from add_expense import add_expense
 # The following will be implemented by your teammates
-from view_expenses import view_all_expenses
+from view_expenses import view_expenses
 from filter_expenses import filter_expenses
 from delete_expense import delete_expense
 from summary import view_summary
