@@ -44,7 +44,7 @@ def main():
             add_expense(EXPENSE_FILE)
         elif choice == '2':
             try:
-                view_all_expenses(EXPENSE_FILE)
+                view_expenses(EXPENSE_FILE)
             except NameError:
                 print("This feature is not implemented yet.")
         elif choice == '3':
